@@ -24,3 +24,6 @@ print(not "")
 #>>> True
 # Se a string estiver vazia, o not vai retornar True
 
+print((saldo >= saque and saque <= limite) or (not contatos_emergencia))
+#>>> True
+# Verifica se o saldo é suficiente para o saque e se não há contatos de emergência
