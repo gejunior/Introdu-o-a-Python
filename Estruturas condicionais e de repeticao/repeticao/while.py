@@ -22,3 +22,10 @@ while opcao != 0:
         print("Saindo do programa")
     else:
         print("Opcao invalida, tente novamente")
+
+contador = 0
+while contador < 5:
+    contador += 1
+    if contador == 3:
+        continue # Pula a iteração quando o contador é 3
+    print(f"Contador: {contador}")
