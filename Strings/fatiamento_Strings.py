@@ -21,3 +21,6 @@ nome[-1]
 # >>> 'r'
 nome[-5:]
 # >>> 'Silu'
+
+curso = "Python" 
+print(curso[::-1])
