@@ -36,3 +36,15 @@ for carro in carros:
 
 for indice, carro in enumerate(carros): #enumerate retorna o índice e o valor do elemento
     print(f"{indice} - {carro}") #Imprime o índice e o valor do elemento
+
+numeros = [1, 2, 3, 4, 5]
+pares = []
+for numero in numeros:
+    if numero % 2 == 0:
+        pares.append(numero)  # Adiciona o número par à lista pares
+        print("Números pares:", pares)  # Imprime a lista de números pares
+
+numeros = [1, 30, 21, 2, 9, 65, 34]
+pares = [numero for numero in numeros if numero % 2 == 0]  # Compreensão de lista para filtrar números pares
+# Adiciona o número par à lista pares
+print("Números pares:", pares)  # Imprime a lista de números pares
