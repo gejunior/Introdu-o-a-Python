@@ -1,0 +1,9 @@
+#herança simples classe filho herda da classe pai
+class A:
+    pass
+
+class B:
+    pass
+
+class C(A, B):
+    pass
