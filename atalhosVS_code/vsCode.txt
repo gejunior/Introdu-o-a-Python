@@ -1,1 +1,3 @@
 ctrl + l -> seleciona linha
+shift + alt e seta pra cima/baixo -> duplica linha de código
+ctrl + shift + k -> exclui a linha
